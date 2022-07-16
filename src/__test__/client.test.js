@@ -19,7 +19,7 @@ describe('db_client', () => {
   });
 
   test('It defines a load function', () => {
-    expect(typeof db_client.add).toBe('function');
+    expect(typeof db_client.load).toBe('function');
   });
 
   test('It defines a del function', () => {
