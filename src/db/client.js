@@ -4,6 +4,9 @@ const redis_client = redis.createClient();
 redis_client.connect().then(()=>console.log('Redis connected'));
 
 const db_client = {
+  del(list) {
+    redis_client.del(list);
+  },
   add(list, key, data) {
     redis_client.hSet(list, key, data)
   },

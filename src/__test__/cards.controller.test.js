@@ -5,6 +5,7 @@ import app from "../app.js";
 jest.mock("../db/client", () => {
   return {
     add() {},
+    del() {},
     load() {
       return new Promise((rev)=>rev(1));
     }
