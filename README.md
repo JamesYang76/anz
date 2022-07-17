@@ -29,19 +29,9 @@ Install all packages.
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:8080](http://localhost:8080) to view it in your browser.
+Runs the app with `8080` port in the development mode.\
+This app supports only restfull service.
 
-### `yarn test`
-
-Launches the unit test.\
-
-## Change PORT
-PORT is `src/constants.js/PORT`.\
-If you want to Port number, change it.
-
-
-## How to execute 
 When `yarn start`, there are two end-points - `/tokenize` and `/detokenize`
 You can test them with curl or other rest clients
 ```bash
@@ -63,3 +53,11 @@ curl --request POST \
 	"U2FsdGVkX18tU8bSWZZLSgBXQaDEhJpJsqCS3gQAhUzr11d65BLPQ3LQEp2ctO0a"
 ]'
 ```
+### `yarn test`
+
+Launches the unit test.
+
+## Change PORT
+PORT is `src/constants.js/PORT`.\
+If you want to Port number, change it.
+
