@@ -32,7 +32,7 @@ Install all packages.
 Runs the app with `8080` port in the development mode.\
 This app supports only restfull service.
 
-When `yarn start`, there are two end-points - `/tokenize` and `/detokenize`
+When `yarn start`, there are two end-points - `/tokenize` and `/detokenize`\
 You can test them with curl or other rest clients
 ```bash
 #example of curl
